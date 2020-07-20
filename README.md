@@ -30,20 +30,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+A) The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page.
+
+A Web page is a document. This document can be either displayed in the browser window or as the HTML source. But it is the same document in both cases. The Document Object Model (DOM) represents that same document so it can be manipulated. The DOM is an object-oriented representation of the web page, which can be modified with a scripting language such as JavaScript.
+
 2. What is an event?
 
+A) An event is when anything is happening within the Page. A page loading, a mouse being clicked, etc.
+
 3. What is an event listener?
+An event listener is a function that is designed to 'listen' or wait for an certain event to occur before enacting what it is supposed to do.
 
 4. Why would we convert a NodeList into an Array?
 
+A) We would convert a nodelist into an array so we can work with it. Nodelistss are not actually javascript api so we cannot work with them like we can arrays. 5. What is a component? When you get repetitive code, components are resuable code that can be used to make your code dry.
+
 5. What is a component?
+A) Components are HTML, CSS & JS that come together to make reusable code for a website or application.
 
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [x] Fork the project into your GitHub user account
+* [x] Clone the forked project into a directory on your machine
+* [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [x] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
