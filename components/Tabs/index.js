@@ -8,19 +8,16 @@
 //  Each tab should look like this:
 //    <div class="tab">topic here</div>
 
-const newsTopics = document.quearySelector('.topics')
+const newsTopics = document.querySelector('.topics')
 
 axios
-    .get(`https://lambda-times-backend.herokuapp.com/topics`)
-    .then(response => {
-        console.log(response);
-        response.data.topics.foreach(item => {
-            const topics = tabsComponent(item);
-            newsTopics.appendChild(topics);
-        });
-    })
-    .catch(function (error) {
-        console.log ('error', error);
+.get(`https://Lambda-times-backend.herokuapp.com/topics`)
+.then(response => {
+    console.log(response);
+    response.data.topics.forEach(item => {
+        const topics = tabsComponent(item);
+        newsTopics.appendChild(topics);
+
     });
 
     function tabsComponent(data) {

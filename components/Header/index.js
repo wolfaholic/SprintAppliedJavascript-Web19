@@ -36,5 +36,5 @@ newsTemp.textContent = '98°';
 
 return newsHead;
 }
-const headerContainer = document.quearySelector('.header-container');
+const headerContainer = document.querySelector('.header-container');
 headerContainer.appendChild(Header());
